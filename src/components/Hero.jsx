@@ -1,5 +1,6 @@
 import React from 'react'
 import {Mouse} from 'lucide-react';
+import rope from '../assets/rope.png';
 
 const Hero = () => {
   return (
@@ -12,7 +13,14 @@ const Hero = () => {
          <Mouse />
          <p>Scroll to explore </p>
       </div>
-
+      <div className='rope'>
+  <img src = {rope} />
+  <img src = {rope} />
+  <img src = {rope} />
+  <img src = {rope} />
+  <img src = {rope} />
+  
+  </div>
     </div>
   )
 }
