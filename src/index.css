@@ -216,4 +216,17 @@ line-height: 4rem;
     padding: 10px 60px;
     cursor: pointer;
     font-size: 1.2rem;
+    
+    border-radius: 10px;
+    transition: all 0.8s cubic-bezier(0.39, 0.575, 0.565, 1);
+
+  }
+
+  .contact:hover {
+    background: transparent;
+    color: var(--bg);
+    font-weight: bold;
+ 
+  
+  
   }
