@@ -18,6 +18,13 @@ const About = () => {
      <p >The Fragrance of Immortality</p>
    </div>
  </div>
+
+
+<div className="about-2">
+     <span>Forever</span>
+     <h2>Discover the power of Forever, the fragrance that offers the tantalizing possibility of living forever in a single, timeless bottle.</h2>
+      <button className='contact'>Contact Us</button>
+</div>
     </div>
   )
 }
