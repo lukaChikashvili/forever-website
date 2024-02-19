@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='hero-section'>
       <div className="title">
           <h1>The secret to live <span>Forever</span></h1>
-         
+       
       </div>
 
       <div className='scroll'>
