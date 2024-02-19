@@ -19,7 +19,9 @@ const Header = () => {
 
 
        <div className="icons">
-          <label>menu</label>
+          <label>
+         Menu
+          </label>
          <Menu size={30}/>
        </div>
     </div>

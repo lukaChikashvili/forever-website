@@ -184,6 +184,7 @@ line-height: 4rem;
     justify-items: center;
     gap: 4rem;
     padding-top: 4rem;
+    padding-bottom: 10rem;
   }
 
   .about-2 span {
@@ -239,4 +240,46 @@ line-height: 4rem;
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
+  }
+
+
+  .products-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background: var(--bg);
+
+
+  }
+
+  .product h2 {
+    font-size: 4rem;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+    transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+
+  }
+ 
+  .product h2::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: var(--red);
+    bottom: -10px;
+    left: -10px;
+    
+
+  }
+
+ 
+  .product h2:hover {
+    opacity: 0.4;
+    transform: translateX(-30px)
   }

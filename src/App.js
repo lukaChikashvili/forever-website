@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import SmoothScroll from "./components/SmoothScroll";
 import {motion, useMotionValue, useSpring} from 'framer-motion';
+import Products from "./components/Products";
 
 
 
@@ -49,6 +50,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Products />
       </SmoothScroll>
     
 
