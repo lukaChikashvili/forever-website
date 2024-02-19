@@ -252,6 +252,9 @@ line-height: 4rem;
     justify-content: center;
     gap: 3rem;
     background: var(--bg);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
 
 
   }
@@ -320,7 +323,7 @@ line-height: 4rem;
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #455CE9;
+    background-color: var(--red);
     color: white;
     position: absolute;
     z-index: 2;
@@ -334,4 +337,18 @@ line-height: 4rem;
 
 .cursorLabel{
     background-color: transparent;
+}
+
+.product-span {
+  font-size: 2rem;
+  margin-right: auto;
+  padding-left: 4rem;
+  
+}
+
+.price-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

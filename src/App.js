@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import SmoothScroll from "./components/SmoothScroll";
 import {motion, useMotionValue, useSpring} from 'framer-motion';
 import Products from "./components/Products";
+import Price from "./components/Price";
 
 
 
@@ -51,6 +52,7 @@ function App() {
       <Hero />
       <About />
       <Products />
+      <Price />
       </SmoothScroll>
     
 

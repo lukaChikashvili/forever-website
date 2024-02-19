@@ -40,6 +40,7 @@ const Products = () => {
 
   return (
     <div className='products-page'>
+     <span className='product-span'>Products</span>
           {products.map((product, index) => {
                return <Product key = {index} index = {index} title = {product.title} setModalState = {setModalState} />
           })}
