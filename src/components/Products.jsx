@@ -1,27 +1,36 @@
 import React, { useState } from 'react'
 import Product from './Product';
-
+import Modal from './Modal';
+import one from '../assets/one.png';
+import two from '../assets/two.png';
+import three from '../assets/three.png';
+import four from '../assets/four.png';
 const Products = () => {
  
      const products = [
           {
             title: "Forever Essence",
-            img: ''
+            img: one,
+            color: "white"
           },
 
           {
                title: "Perpetual Perfume",
-               img: ''
+               img: two,
+               color: "white"
+               
              },
 
              {
                title: "Timeless Aroma",
-               img: ''
+               img: three,
+               color: "white"
              },
 
              {
                title: "Everlasting Scen",
-               img: ''
+               img: four,
+               color: "white"
              }
 
      ];
@@ -35,6 +44,7 @@ const Products = () => {
                return <Product key = {index} index = {index} title = {product.title} setModalState = {setModalState} />
           })}
 
+    <Modal modal = {modalState} products = {products} />
     </div>
   )
 }
