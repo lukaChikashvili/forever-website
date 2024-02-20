@@ -483,3 +483,17 @@ color: var(--bg);
 
   
 }
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background:#fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--red);
+  
+}
