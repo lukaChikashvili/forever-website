@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/forever-website/static/css/main.7b291b72.css",
+    "main.js": "/forever-website/static/js/main.15dcf46a.js",
+    "static/media/rope.png": "/forever-website/static/media/rope.2587df17d9bb1921cd97.png",
+    "static/media/three.png": "/forever-website/static/media/three.0244aecc3e6e7c824884.png",
+    "static/media/parfume.png": "/forever-website/static/media/parfume.b32be7da9cb0ced4e643.png",
+    "static/media/two.png": "/forever-website/static/media/two.c37877cb6497db3a97a2.png",
+    "static/media/four.png": "/forever-website/static/media/four.39b0eb75e52908d1eeb8.png",
+    "static/media/one.png": "/forever-website/static/media/one.1b80312ad4f43cdd3e03.png",
+    "index.html": "/forever-website/index.html",
+    "main.7b291b72.css.map": "/forever-website/static/css/main.7b291b72.css.map",
+    "main.15dcf46a.js.map": "/forever-website/static/js/main.15dcf46a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b291b72.css",
+    "static/js/main.15dcf46a.js"
+  ]
+}
