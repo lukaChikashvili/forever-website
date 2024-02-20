@@ -6,6 +6,7 @@ import SmoothScroll from "./components/SmoothScroll";
 import {motion, useMotionValue, useSpring} from 'framer-motion';
 import Products from "./components/Products";
 import Price from "./components/Price";
+import Footer from "./components/Footer";
 
 
 
@@ -53,6 +54,7 @@ function App() {
       <About />
       <Products />
       <Price />
+      <Footer />
       </SmoothScroll>
     
 
