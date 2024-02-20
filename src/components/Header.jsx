@@ -1,5 +1,5 @@
+import { Facebook, Instagram, Linkedin } from 'lucide-react'
 import React from 'react'
-import {Menu} from 'lucide-react';
 
 const Header = () => {
   return (
@@ -20,9 +20,11 @@ const Header = () => {
 
        <div className="icons">
           <label>
-         Menu
+         Contacts
           </label>
-         <Menu size={30}/>
+         <Facebook />
+         <Instagram />
+         <Linkedin />
        </div>
     </div>
   )
