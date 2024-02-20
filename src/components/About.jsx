@@ -11,7 +11,7 @@ const About = () => {
        <div className="about-container">
 
           <div className="text">
-              <motion.span initial = {{opacity: 0, translateY: 10}} whileInView = {{opacity: 1, translateY: 0}} transition = {{type: "spring" ,duration: 1.5, delay: 1.2}}>Forever+</motion.span>
+              <motion.span initial = {{opacity: 0, translateY: 10}} whileInView = {{opacity: 1, translateY: 0}} transition = {{type: "spring" ,duration: 1.5, delay: 1}}>Forever+</motion.span>
               <motion.p initial = {{opacity: 0, translateY: 10}} whileInView = {{opacity: 1, translateY: 0}} transition = {{type: "spring" ,duration: 1.5, delay: 1.6}}>Introducing "Forever," a perfume that transcends time itself, offering the unprecedented gift of eternal life. </motion.p>
               <motion.p initial = {{opacity: 0, translateY: 10}} whileInView = {{opacity: 1, translateY: 0}} transition = {{type: "spring" ,duration: 1.5, delay: 1.8}}>Encased in an elegant vessel, Forever emanates an alluring blend of rejuvenating citrus, enchanting florals, and exotic resins.</motion.p>
           </div>
