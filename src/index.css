@@ -427,6 +427,8 @@ color: var(--bg);
   align-items: center;
   justify-content: space-between;
   padding: 0px 7rem;
+  position: relative;
+  z-index: -1;
 }
 
 .footer span {
@@ -448,4 +450,36 @@ color: var(--bg);
   color: #fff;
   text-decoration: none;
 
+}
+
+
+@media only screen and (max-width: 600px) {
+  .rope {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .title {
+    font-size: 40px;
+    padding-bottom: 4rem;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plans {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product h2 {
+    font-size: 30px;
+  }
+
+  
 }
