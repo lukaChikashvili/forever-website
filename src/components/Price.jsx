@@ -1,15 +1,17 @@
 import React from 'react'
 import {DollarSign} from 'lucide-react';
+import {motion} from 'framer-motion';
+
 
 const Price = () => {
   return (
     <div className='price-container'>
      <div className="price-title">
-          <h2>Choose your favorite plan to become the member of the <span>Forever+</span></h2>
+          <motion.h2 initial = {{opacity: 0, translateY: 10}} whileInView = {{opacity: 1, translateY: 0}} transition = {{type: "spring" ,duration: 1.5, delay: 1.5}}>Choose your favorite plan to become the member of the <span>Forever+</span></motion.h2>
      </div>
 
      <div className="plans">
-          <div className="plan">
+          <motion.div initial = {{opacity: 0, translateY: 10}} whileInView = {{opacity: 1, translateY: 0}} transition = {{type: "spring" ,duration: 1.5, delay: 1.5}} className="plan">
               <span>Forever free</span>
               <div className='price-tag'>
               <label>0</label>
@@ -22,10 +24,10 @@ const Price = () => {
               <li>Non-Transferable </li>
             </ul>
                <button>Get free plan</button>
-          </div>
+          </motion.div>
 
 
-          <div className="plan">
+          <motion.div initial = {{opacity: 0, translateY: 10}} whileInView = {{opacity: 1, translateY: 0}} transition = {{type: "spring" ,duration: 1.5, delay: 2}} className="plan">
               <span>Forever standard</span>
               <div className='price-tag'>
               <label>150</label>
@@ -38,10 +40,10 @@ const Price = () => {
               <li>Early Access to Events </li>
             </ul>
                <button>Get standard plan</button>
-          </div>
+          </motion.div>
 
 
-          <div className="plan">
+          <motion.div initial = {{opacity: 0, translateY: 10}} whileInView = {{opacity: 1, translateY: 0}} transition = {{type: "spring" ,duration: 1.5, delay: 2.5}} className="plan">
               <span>Forever premium</span>
               <div className='price-tag'>
               <label>1500</label>
@@ -54,7 +56,7 @@ const Price = () => {
               <li>Exclusive Discounts and Offers </li>
             </ul>
                <button>Get premium plan</button>
-          </div>
+          </motion.div>
      </div>
     </div>
   )
