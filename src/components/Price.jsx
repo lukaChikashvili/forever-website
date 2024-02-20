@@ -11,7 +11,10 @@ const Price = () => {
      <div className="plans">
           <div className="plan">
               <span>Forever free</span>
-            <DollarSign className='price-icon'/>
+              <div className='price-tag'>
+              <label>0</label>
+               <DollarSign className='price-icon'/>
+               </div>
             <ul>
               <li>Age Restriction </li>
               <li>Single Purchase Limit </li>
@@ -24,7 +27,10 @@ const Price = () => {
 
           <div className="plan">
               <span>Forever standard</span>
-            <DollarSign className='price-icon'/>
+              <div className='price-tag'>
+              <label>150</label>
+               <DollarSign className='price-icon'/>
+               </div>
             <ul>
               <li>Exclusive Access </li>
               <li>Product Updates </li>
@@ -37,7 +43,10 @@ const Price = () => {
 
           <div className="plan">
               <span>Forever premium</span>
-            <DollarSign className='price-icon'/>
+              <div className='price-tag'>
+              <label>1500</label>
+               <DollarSign className='price-icon'/>
+               </div>
             <ul>
               <li>VIP Events Access </li>
               <li>Limited Edition Collectibles</li>

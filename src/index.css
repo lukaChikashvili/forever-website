@@ -240,7 +240,7 @@ line-height: 4rem;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: -1;
   }
 
 
@@ -326,7 +326,7 @@ line-height: 4rem;
     background-color: var(--red);
     color: white;
     position: absolute;
-    z-index: 2;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -353,10 +353,67 @@ line-height: 4rem;
   align-items: center;
   justify-content: center;
   gap: 5rem;
+  
 }
 
 .plans {
   display: flex;
   align-items: center;
-  gap: 10rem;
+  gap: 5rem;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid var(--red);
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: -3px 3px 10px lightgray;
+  padding: 2rem;
+  
+}
+
+.plan ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 30px;
+  text-align: center;
+  list-style: none;
+}
+
+.plan span {
+  font-size: 30px;
+}
+
+
+.price-tag {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+.plan button {
+  background: var(--bg);
+ width: 250px;
+ padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: -3px 3px var(--red);
+  font-size: 15px;
+  margin-top: 30px;
+  font-family: 'against', sans-serif;
+  transition: all 0.8s ease-in;
+
+
+
+}
+
+.plan button:hover {
+background: transparent;
+color: var(--bg);
 }
